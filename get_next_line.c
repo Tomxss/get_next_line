@@ -6,7 +6,7 @@
 /*   By: tcoetzee <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/27 12:39:54 by tcoetzee          #+#    #+#             */
-/*   Updated: 2019/06/28 08:53:05 by tcoetzee         ###   ########.fr       */
+/*   Updated: 2019/06/28 12:28:06 by tcoetzee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int		safe_read(const int fd, char **content)
 			return (-1);
 		free(tmp);
 		if (ft_strchr(buf, '\n'))
-			break;
+			break ;
 	}
 	return (res);
 }
